@@ -1,0 +1,19 @@
+   & TaskInfo
+        Task = SRO_Cor
+        Prefix = NbMoHfTaW-O4C2
+        Elements = Nb, Mo, Hf, Ta, W
+        MolarFrac = 0.2, 0.2, 0.2, 0.2, 0.2
+
+    & FilesInfo
+        XLSXFile = RHEA_CN_FP_Database.xlsx
+        Units = eV, Bohr, GPa
+
+    & OptimizationInfo
+        MaxRun = 10
+        MaxIt = 5000
+        PopSize = 100
+        OptHistory = T
+        ObjIndex =  1, 2, 3, 4
+        FixedObjWeight = T
+        ObjWeight = 0.25, 0.25, 0.25, 0.25
+        ConsIndex = 1, 2
